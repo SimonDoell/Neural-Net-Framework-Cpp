@@ -66,7 +66,7 @@ The weights are randomly initialized. The random function by default will always
 
 There are a few parameters you can tweak to change the way the network learns. Some changes can make the network worse and better, so experiment with different parameters and create a way to benchmark the training.
 
-The most obvios: change the `learningRate` (default is 0.01). This makes the network learn faster, at the cost of making it more instable, which can cause explosions in the weights and make it unable to learn. Something you could try is gradually decreaing the learning rate while learning, which can but doesnt guarentee better results.
+The most obvios: increase the `learningRate` (default is 0.01). This makes the network learn faster, at the cost of making it more instable, which can cause explosions in the weights and make it unable to learn. Something you could try is gradually decreaing the learning rate while learning, which can but doesnt guarentee better results. I do not recommend going above 0.01 or 0.02.
 
 Another thing you can do is switch the activation function for other activation functions, in the hidden and output layer.
 
@@ -75,4 +75,6 @@ Making the network larger (adding more hidden layers with more neurons) has many
 
 ---
 
-## How to compile:
+## How to use it in my code:
+
+Using it as external code is really simple, first clone the repo into any folder you like. Then, include it with `#include "/path/to/folder/NeuralNet.h"` and you are done!

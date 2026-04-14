@@ -2,7 +2,7 @@
 #include <iostream>
 #include <random>
 #include <cmath>
-#include <vector> 
+#include <vector>
 
 // --- Activation Functions ---
 struct Activation {
