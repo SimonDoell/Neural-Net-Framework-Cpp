@@ -30,7 +30,7 @@ After that, we calculate the value, the neural net should map to the input value
 
 `float functionValue = sin(intputValue);`
 
-Not the last step is to use the backpropagation function, to change the weights and biases.
+Now the last step is to use the backpropagation function, to change the weights and biases.
 
 `net.backpropagation({functionValue});`
 
